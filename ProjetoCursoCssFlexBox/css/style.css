@@ -340,33 +340,33 @@ body{
 
 /* FIM QUALIDADE */
 
-/* INICIO NewsLetter */
+/* INICIO notificao  */
 
-.newsletter{
+.notificao{
     background: #f7f7f7;
     padding: 60px calc((100% - 960px) / 2);
     display: flex;
     flex-wrap: wrap;
 }
 
-.newsletter-info{
+.notificao-info{
     flex: 1 1 260px;
     margin: 0 10px;
 }
 
-.newsletter-info h1{
+.notificao-info h1{
     font-size: 3em;
     color: #a4a4a4;
 }
 
-.newsletter-info p{
+.notificao-info p{
     font-size: 1.25em;
     font-style: italic;
     max-width: 230px;
     color: #7c7c7c;
 }
 
-.newsletter-form{
+.notificao-form{
     flex: 2 1 150px;
     margin: 0 10px;
     align-self: center;
@@ -374,13 +374,13 @@ body{
     flex-wrap: wrap;
 }
 
-.newsletter-form input{
+.notificao-form input{
     flex: 3 1 200px;
     font-size: 1.25em;
     color: #7c7c7c;
     font-style: italic;
     font-family: "Nunito", Arial, Helvetica, sans-serif;
-    border: 4px solid #2c70ff;
+    border: 2px solid #872cff;
     background: transparent;
     padding: 15px 10px;
     margin: 0px;
@@ -388,18 +388,18 @@ body{
 }
 
 @media (max-width: 600px){
-    .newsletter-form button{
+    .notificao-form button{
         font-size: 1.5em;
     }
 }
 
-.newsletter-form button{
+.notificao-form button{
     flex: 1 1 200px;
     font-family: "Nunito", Arial, Helvetica, sans-serif;
-    font-size: 2.25em;
+    font-size: 1.5em;
     font-weight: bold;
     text-transform: uppercase;
-    background: #2c70ff;
+    background: #6200ff;
     color: white;
     cursor: pointer;
     margin: 0px;
