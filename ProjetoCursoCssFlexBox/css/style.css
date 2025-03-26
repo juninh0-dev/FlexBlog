@@ -63,7 +63,7 @@ body{
 
 .container-general{
     display: flex;
-    background-image: url(/imgs/barzin.jpg  );
+    background-image: url(/ProjetoCursoCssFlexBox/imgs/barzin.jpg);
     opacity: 500px;
     justify-content: center;    
 }
